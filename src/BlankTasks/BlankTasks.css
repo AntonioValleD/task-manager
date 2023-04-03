@@ -1,0 +1,19 @@
+.blank-text{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.blank-text h3{
+    width: 70%;
+}
+
+.blank-icon{
+    padding: 1px 8px;
+    font-size: 24px;
+    color: #FAFAFA;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 24px;
+    user-select: none;
+}

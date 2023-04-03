@@ -1,0 +1,32 @@
+html{
+  box-sizing: border-box;
+}
+*, *::after, *::before{
+  box-sizing: inherit;
+} 
+body {
+  margin: 0;
+  padding: 0;
+  background: #F2F4F5;
+  color: #1E1E1F;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-container{
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+}
+@media (min-width: 600px){
+  .main-container{
+    width: 550px;
+  }
+}
